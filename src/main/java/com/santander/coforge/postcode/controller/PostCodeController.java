@@ -22,6 +22,7 @@ public class PostCodeController {
 	private PostcodeService postcodeService;
 	
 
+	// we are getting input from 3rd party api.
 	@GetMapping("/")
 	public FinalResponseDto savePostcodeDetails(@RequestParam String name, @RequestParam String code){
 		
